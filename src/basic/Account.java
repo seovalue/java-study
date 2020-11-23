@@ -1,4 +1,4 @@
-package com.company;
+package basic;
 
 public class Account {
     int balance = 0; //예금 잔액

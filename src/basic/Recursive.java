@@ -1,4 +1,4 @@
-package com.company;
+package basic;
 
 public class Recursive {
     // 재귀 함수를 정의해보자

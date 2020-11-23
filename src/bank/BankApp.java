@@ -198,7 +198,7 @@ public class BankApp {
         System.out.println("계좌에서 송금하시겠습니까? yes/no");
         String answer = scanner.next();
 
-        String outAccNumber = "";
+        String outAccNumber = null;
 
         boolean useAccount = false;
         if (answer.equals("yes")){
