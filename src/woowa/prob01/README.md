@@ -6,6 +6,7 @@
 3. 사용자가 숫자를 맞출때까지 해당 기능을 반복한다.
 4. 사용자가 숫자를 맞췄을 시 게임을 다시 시작하거나, 완전히 종료할 수 있다.
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FuctEO%2FbtqulC36fjs%2FlnolkAkfaUsg5NU9edmHM0%2Fimg.png" width="400px">
 
 ## 프로그래밍 요구 사항
 1. 자바 코드 컨벤션을 지키면서 프로그래밍한다.

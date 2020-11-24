@@ -10,6 +10,8 @@
 7. 자동차 경주 게임을 완료한 후 누가 우승했는지를 알려준다. 우승자는 한 명 이상일 수 있다.
  
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fcha5W3%2FbtquhjkqRaL%2F3wBccJJmtjMlOSg7qujuu1%2Fimg.png" width="400px">
+  
 ## 프로그래밍 요구사항
 1. 1주차의 프로그래밍 요구사항은 기본적으로 가져간다.
 2. 저장소에서 제공하는 Car객체를 활용하여 구현해야한다.
