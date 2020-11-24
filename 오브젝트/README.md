@@ -1,5 +1,5 @@
 # 오브젝트
-
+소스코드: https://github.com/seovalue/java-study/tree/main/src/book
 ## Chapter01
 ### step01
 **예상을 빗나가는 코드**  
@@ -17,3 +17,15 @@
 ![](img/너무%20많은%20클래스에%20의존하는%20Theater.png)  
 
 ### step02
+* 해결 방법  
+- `Audience`와 `TicketSeller`가 직접 `Bag`와 `TicketOffice`를 처리하는 자율적인 존재가 되도록 설계를 변경한다.  
+1. `Theater`의 `enter` 메서드에서 `TicketOffice`에 접근하는 모든 코드를 `TicketSeller` 내부로 숨긴다.
+2. `TicketSeller`에서 `getTicketOffice` 메서드를 제거한다. `ticketOffice`의 가시성이 private이고 접근 가능한 퍼블릭 메서드가 더 이상 존재하지 않기 때문에 
+외부에서는 `ticketOffice`에 직접 접근할 수 없다. 결과적으로 `ticketOffice`는 `ticketSeller`만이 접근할 수 있다.  >> **캡슐화**  
+3. `TicketSeller` 에서 `Audience`의 `Bag`에 접근하는 메서드를 변경한다. `Audience`에서 직접 `Bag`을 관리하도록 한다.  
+4. `Bag`을 자율적인 존재로 바꾼다. 위와 동일한 과정을 통해 캡슐화한다.
+
+> 데이터와 프로세스가 동일한 모듈 내부에 위치하도록 프로그래밍. OOP
+
+![](img/step02.png)  
+
