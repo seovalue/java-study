@@ -1,13 +1,13 @@
-package book.chapter02.step01;
+package book.chapter02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public abstract class DiscountPolicy {
+public abstract class DefaultDiscountPolicy implements DiscountPolicy{
   private List<DiscountCondition> conditions = new ArrayList<>();
 
-  public DiscountPolicy(DiscountCondition ... conditions){
+  public DefaultDiscountPolicy(DiscountCondition ... conditions){
     this.conditions = Arrays.asList(conditions);
   }
 

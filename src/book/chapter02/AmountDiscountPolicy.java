@@ -1,6 +1,6 @@
-package book.chapter02.step01;
+package book.chapter02;
 
-public class AmountDiscountPolicy extends DiscountPolicy{
+public class AmountDiscountPolicy extends DefaultDiscountPolicy {
   private Money discountAmount;
 
   public AmountDiscountPolicy(Money discountAmount, DiscountCondition ... conditions){

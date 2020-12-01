@@ -1,6 +1,6 @@
-package book.chapter02.step01;
+package book.chapter02;
 
-public class PercentDiscountPolicy extends DiscountPolicy{
+public class PercentDiscountPolicy extends DefaultDiscountPolicy {
   private double percent;
 
   public PercentDiscountPolicy(double percent, DiscountCondition ... conditions){

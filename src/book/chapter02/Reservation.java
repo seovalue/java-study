@@ -1,4 +1,4 @@
-package book.chapter02.step01;
+package book.chapter02;
 
 public class Reservation {
   private Customer customer;

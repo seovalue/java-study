@@ -1,4 +1,4 @@
-package book.chapter02.step01;
+package book.chapter02;
 
 import java.time.Duration;
 
@@ -22,5 +22,9 @@ public class Movie {
 
   public Money calculateMovieFee(Screening screening){
     return fee.minus(discountPolicy.calculateDiscountAmount(screening));
+  }
+
+  public void changeDiscountPolicy(DiscountPolicy discountPolicy){
+    this.discountPolicy = discountPolicy;
   }
 }
