@@ -14,4 +14,5 @@
 ## [오브젝트](https://github.com/seovalue/java-study/tree/main/오브젝트) 📚  
 [오브젝트: 코드로 이해하는 객체지향 설계](https://wikibook.co.kr/object/) 책을 통해 공부한 내용을 작성합니다.  
 
-## [더 자바, Java 8]
+## [더 자바, Java 8](https://github.com/seovalue/java-study/blob/main/%EB%8D%94%20%EC%9E%90%EB%B0%94%2C%20Java%208/README.md)
+[더 자바, Java 8](https://inf.run/H5Tp) 강의를 듣고 공부한 내용을 작성합니다.  
