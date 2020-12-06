@@ -1,5 +1,5 @@
 # 오브젝트
-소스코드: https://github.com/seovalue/java-study/tree/main/src/book
+소스코드: https://github.com/seovalue/java-study/tree/main/src/object
 
 ## [Chapter01](https://github.com/seovalue/java-study/tree/main/src/book/chapter01)
 ### step01
