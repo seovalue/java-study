@@ -95,3 +95,21 @@ BiFunction<T, U, R>의 특수한 형태로, 동일한 타입의 입렵값 두개
 해당 타입 관련 헬퍼 또는 유틸리티 메소드를 제공할 때 인터페이스에 스태틱 메소드를 제공할 수 있다.
 
 ### 자바 8 API의 기본 메소드와 스태틱 메소드
+자바 8에서 추가한 기본 메소드로 인한 API 변화
+```
+Iterable의 기본 메소드
+forEach()
+spliterator()
+
+Collection의 기본 메소드
+stream() / parallelStream()
+removeIf(Predicate)
+spliterator()
+
+Comparator의 기본 메소드 및 스태틱 메소드
+reversed()
+thenComparing()
+static reverseOrder() / naturalOrder()
+static nullsFirst() / nullsLast()
+static comparing()
+```
