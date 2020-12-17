@@ -113,3 +113,9 @@ static reverseOrder() / naturalOrder()
 static nullsFirst() / nullsLast()
 static comparing()
 ```
+
+
+### Stream
+- 데이터를 담는 저장소가 아니다.  
+- 스트림이 처리하는 데이터 소스를 변경하지 않는다.  
+- 스트림으로 처리하는 데이터는 오직 한번만 처리한다.  
